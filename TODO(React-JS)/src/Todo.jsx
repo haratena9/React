@@ -37,7 +37,7 @@ export const Todo = () => {
     setCompelteTodos(newCompleteTodos);
   };
 
-  isMaxIncompeleteTodos = incompleteTodos.length >= 5;
+  const isMaxIncompeleteTodos = incompleteTodos.length >= 5;
   return (
     <>
       <InputTodo
